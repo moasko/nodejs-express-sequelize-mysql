@@ -7,7 +7,7 @@ var corsOptions = {
   origin: "https://motomairie.herokuapp.com"
 };
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 // parse requests of content-type - application/json
 app.use(express.json());
