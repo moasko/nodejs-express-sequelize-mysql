@@ -21,5 +21,6 @@ db.sequelize = sequelize;
 
 db.tutorials = require("./tutorial.model.js")(sequelize, Sequelize);
 db.motos = require("./motos.model.js")(sequelize, Sequelize);
+db.mairie = require("./mairie.model.js")(sequelize, Sequelize);
 
 module.exports = db;
